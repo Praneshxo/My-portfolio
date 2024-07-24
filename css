@@ -11,6 +11,7 @@ hr{
 }
 
 img{
+  opacity: 0%;
     width: 700px;
     height: 500px;
     border-bottom-right-radius: 270px;
@@ -20,14 +21,24 @@ img{
     object-fit: right;
     mask-image:linear-gradient(rgb(80, 54, 141),transparent);
 }
-.GD{
+.GD {
   color: #aa75ce;
-  font-family: Bebas neue;
-  font-weight:bold;
+  font-family: 'Bebas Neue'; /* Ensure proper font-family syntax */
+  font-weight: bold;
   position: absolute;
   font-size: 100px;
   margin-top: 10px;
   left: 40px;
+  
+  transition: text-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Apply the glowing effect only on hover */
+.GD:hover {
+  text-shadow: 
+    0 0 30px rgba(142, 68, 173, 1), 
+    0 0 60px rgba(142, 68, 173, 0.8), 
+    0 0 90px rgba(142, 68, 173, 0.6);
 }
 .G{
   position: absolute;
@@ -122,4 +133,39 @@ img{
   100% {
     filter: blur(4px);
   }
+}
+.circle{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #aa75ce;
+  top: 380px;
+  left: 120px;
+  box-shadow: 0 0 20px rgba(142, 68, 173, 0.8), 0 0 40px rgba(142, 68, 173, 0.6), 0 0 60px rgba(142, 68, 173, 0.4); /* Glowing effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.circle:hover {
+    box-shadow: 0 0 30px rgba(142, 68, 173, 1), 0 0 60px rgba(142, 68, 173, 0.8), 0 0 90px rgba(142, 68, 173, 0.6);
+}
+.c1{
+  margin-top:-200px;
+  margin-left:77%;
+}
+.c2{
+  margin-top:-90px;
+  margin-left:77%;
+}
+.c3{
+  margin-top:-200px;
+  margin-left:70%;
+}
+.c4{
+  margin-top:-90px;
+  margin-left:70%;
+}
+.c5{
+  margin-top:20px;
+  margin-left:70%;
 }
