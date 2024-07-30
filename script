@@ -1,0 +1,16 @@
+const project=document.querySelector('.project');
+project.addEventListener('mousemove',(e))
+{
+    const x=e.clientX-e.target.offsetLeft;
+    const y=e.clientY-e.target.offsetTop;
+    const midX=e.target.offsetWidth/2;
+    const midY=e.target.offsetHeight/2;
+    const rotateX=(Y-midY)/10;
+    const rotateY=(X-midX)/10;
+    project.style.transform=('rotateX(${rotateX}deg)rotateY(${rotateY}deg)');
+    project.addEventListener('mouseleave',(0))
+    {
+        project.style.transform=('rotateX(0deg) rotateY(deg)');
+    }
+    
+}
