@@ -1,215 +1,222 @@
 body{
-  background-color: #101415;
+    background-color: #101415;
 }
 h1{
-  color: #e0aed0;
-  margin-top: 4px;
-  margin-left: 17px;
+    color: #e0aed0;
+    margin-top: 4px;
+    margin-left: 17px;
 }
 hr{
-  margin-top: -19px;
+    margin-top: -19px;
 }
 
 img{
-opacity: 0%;
-  width: 700px;
-  height: 500px;
-  border-bottom-right-radius: 270px;
-  border-top-left-radius: 270px;
-  margin-left: 1200px;
-  box-shadow: 20px 20px,#fafafa;
-  object-fit: right;
-  mask-image:linear-gradient(rgb(80, 54, 141),transparent);
+  opacity: 0%;
+    width: 700px;
+    height: 500px;
+    border-bottom-right-radius: 270px;
+    border-top-left-radius: 270px;
+    margin-left: 1200px;
+    box-shadow: 20px 20px,#fafafa;
+    object-fit: right;
+    mask-image:linear-gradient(rgb(80, 54, 141),transparent);
 }
 .GD {
-color: #aa75ce;
-font-family: 'Bebas Neue'; /* Ensure proper font-family syntax */
-font-weight: bold;
-position: absolute;
-font-size: 100px;
-margin-top: 10px;
-left: 40px;
-
-transition: text-shadow 0.3s ease; /* Smooth transition for hover effect */
+  color: #aa75ce;
+  font-family: 'Bebas Neue'; /* Ensure proper font-family syntax */
+  font-weight: bold;
+  position: absolute;
+  font-size: 120%;
+  margin-top: 10px;
+  left: 40px;
+  
+  transition: text-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Apply the glowing effect only on hover */
 .GD:hover {
-text-shadow: 
-  0 0 30px rgba(142, 68, 173, 1), 
-  0 0 60px rgba(142, 68, 173, 0.8), 
-  0 0 90px rgba(142, 68, 173, 0.6);
+  text-shadow: 
+    0 0 30px rgba(142, 68, 173, 1), 
+    0 0 60px rgba(142, 68, 173, 0.8), 
+    0 0 90px rgba(142, 68, 173, 0.6);
 }
 .G{
-position: fixed;
-font-size: 80px;
-margin-top: -300px;
-left: 40px;
+  position: fixed;
+  font-size: 80px;
+  margin-top: -300px;
+  left: 40px;
 }
 .KD{
-color: #ffffff;
-font-family: Impact;
-position: absolute;
-font-size: 70px;
-margin-top: -60px;
-left: 40px;
+  color: #ffffff;
+  font-family: Impact;
+  position: absolute;
+  font-size: 70px;
+  margin-top: -60px;
+  left: 43px;
 }
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
 .loading {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .loading-text {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-text-align: center;
-width: 100%;
-height: 100px;
-line-height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
 }
 .loading-text span {
-display: inline-block;
-margin: 0 5px;
-color: #fff;
-font-family: "Quattrocento Sans", sans-serif;
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 .loading-text span:nth-child(1) {
-filter: blur(0px);
--webkit-animation: blur-text 1.5s 0s infinite linear alternate;
-        animation: blur-text 1.5s 0s infinite linear alternate;
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+          animation: blur-text 1.5s 0s infinite linear alternate;
 }
 .loading-text span:nth-child(2) {
-filter: blur(0px);
--webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
-        animation: blur-text 1.5s 0.2s infinite linear alternate;
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+          animation: blur-text 1.5s 0.2s infinite linear alternate;
 }
 .loading-text span:nth-child(3) {
-filter: blur(0px);
--webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
-        animation: blur-text 1.5s 0.4s infinite linear alternate;
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+          animation: blur-text 1.5s 0.4s infinite linear alternate;
 }
 .loading-text span:nth-child(4) {
-filter: blur(0px);
--webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
-        animation: blur-text 1.5s 0.6s infinite linear alternate;
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+          animation: blur-text 1.5s 0.6s infinite linear alternate;
 }
 .loading-text span:nth-child(5) {
-filter: blur(0px);
--webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
-        animation: blur-text 1.5s 0.8s infinite linear alternate;
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+          animation: blur-text 1.5s 0.8s infinite linear alternate;
 }
 .loading-text span:nth-child(6) {
-filter: blur(0px);
--webkit-animation: blur-text 1.5s 1s infinite linear alternate;
-        animation: blur-text 1.5s 1s infinite linear alternate;
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+          animation: blur-text 1.5s 1s infinite linear alternate;
 }
 .loading-text span:nth-child(7) {
-filter: blur(0px);
--webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
-        animation: blur-text 1.5s 1.2s infinite linear alternate;
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+          animation: blur-text 1.5s 1.2s infinite linear alternate;
 }
 
 @-webkit-keyframes blur-text {
-0% {
-  filter: blur(0px);
-}
-100% {
-  filter: blur(4px);
-}
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(4px);
+  }
 }
 
 @keyframes blur-text {
-0% {
-  filter: blur(0px);
-}
-100% {
-  filter: blur(4px);
-}
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(4px);
+  }
 }
 .circle{
-position: absolute;
-width: 60px;
-height: 60px;
-border-radius: 50%;
-background-color: #aa75ce;
-top: 380px;
-left: 120px;
-box-shadow: 0 0 20px rgba(57, 43, 63, 0.8), 0 0 40px rgba(142, 68, 173, 0.6), 0 0 60px rgba(142, 68, 173, 0.4); /* Glowing effect */
-  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #aa75ce;
+  top: 380px;
+  left: 120px;
+  box-shadow: 0 0 20px rgba(57, 43, 63, 0.8), 0 0 40px rgba(142, 68, 173, 0.6), 0 0 60px rgba(142, 68, 173, 0.4); /* Glowing effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .circle:hover {
-  box-shadow: 0 0 30px rgba(142, 68, 173, 1), 0 0 60px rgba(142, 68, 173, 0.8), 0 0 90px rgba(142, 68, 173, 0.6);
+    box-shadow: 0 0 30px rgba(142, 68, 173, 1), 0 0 60px rgba(142, 68, 173, 0.8), 0 0 90px rgba(142, 68, 173, 0.6);
 }
 .c1{
-margin-top:-200px;
-margin-left:77%;
+  margin-top:-200px;
+  margin-left:77%;
 }
 .c2{
-margin-top:-90px;
-margin-left:77%;
+  margin-top:-90px;
+  margin-left:77%;
 }
 .c3{
-margin-top:-200px;
-margin-left:70%;
+  margin-top:-200px;
+  margin-left:70%;
 }
 .c4{
-margin-top:-90px;
-margin-left:70%;
+  margin-top:-90px;
+  margin-left:70%;
 }
 .c5{
-margin-top:20px;
-margin-left:70%;
+  margin-top:20px;
+  margin-left:70%;
 }
 .intro{
-font-size: 50px;
-position: relative;
-color: #e0aed0;
-width: 60%;
-height: 70%;
-margin-left: 400px;
-text-align: center;
-transition: font-size 0,3 ease;
+  font-size: 50px;
+  position: relative;
+  color: #e0aed0;
+  width: 60%;
+  height: 70%;
+  margin-left: 400px;
+  text-align: center;
+  transition: font-size 0,3 ease;
 }
 .content{
-background-color: #101415;
-position: relative;
-overflow: hidden;
+  background-color: #101415;
+  position: relative;
+  overflow: hidden;
 }
 .project{
-position: relative;
-width: 460px;
-height: 460px;
-background-color: #aa75ce;
-transition: transform 0.3s ease-in-out;
-perspective: 500px;
-transform-style:preserve-3d ;
+  position: relative;
+  width: 460px;
+  height: 460px;
+  background-color: #aa75ce;
+  transition: transform 0.3s ease-in-out;
+  perspective: 500px;
+  transform-style:preserve-3d ;
 }
 .tot{
-background-color: #101415;
-position: relative;
+  background-color: #101415;
+  position: relative;
 }
 .project:hover{
-background-position:80%;
-transform: rotateX(10deg) rotateY(10deg);
+  background-position:80%;
+  transform: rotateX(10deg) rotateY(10deg);
 
 }
 .P1{
-margin-left: 50px;
+  margin-left: 50px;
 }
 .P2{
-top:70px;
-left: 1350px;
+  top:70px;
+  left: 1350px;
 }
 .P3{
-top:70px;
-left: 50px;
+  top:70px;
+  left: 250px;
+}
+.svg{
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  margin-top: 15%;
+  margin-left: 72%;
 }
